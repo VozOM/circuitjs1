@@ -46,7 +46,8 @@ class EditOptions implements Editable {
 	            ei.choice.add("Norsk bokmål");
 	            ei.choice.add("Polski");
 	            ei.choice.add("Português");
-	            ei.choice.add("\u0420\u0443\u0441\u0441\u043a\u0438\u0439"); // Russian 
+	            ei.choice.add("\u0420\u0443\u0441\u0441\u043a\u0438\u0439"); // Russian
+	            ei.choice.add("\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430"); // Ukrainian			
 	            return ei;
 		}
 		
@@ -90,6 +91,7 @@ class EditOptions implements Editable {
 		    	case 8: langString = "pl"; break;
 			case 9: langString = "pt"; break;
 		    	case 10: langString = "ru"; break;
+			case 11: langString = "ua"; break;
 		    	}
 		    	if (langString == null)
 		    	    return;
